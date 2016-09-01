@@ -1,0 +1,20 @@
+{
+  "name": "choro",
+  "version": "1.0.0",
+  "description": "Write scores of choro music",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "julien.abega@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-watch": "^4.3.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-watch": "^4.3.9"
+  }
+}
