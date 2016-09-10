@@ -53,7 +53,7 @@ clarinette =
 
       \repeat volta 2 {
         \tuplet 3/2 { c8 f e } \tuplet 3/2 { g8 f cis } |
-        \tuplet 3/2 { e d a } \tuplet 3/2 { c b fis } |
+        \tuplet 3/2 { e d a } \tuplet 3/2 { c bes fis } |
         \tuplet 3/2 { a8 g fis } \tuplet 3/2 { g8 b d } f8. f16 |
         f16 b, b e e8. e16 |
         d a a d d8. cis16 |
@@ -62,7 +62,7 @@ clarinette =
 
         g b, b g' g8. g16 |
         g8 bes,16 bes16~ bes16 a16 bes b \bar "||" |
-        \tuplet 3/2 { c8 f e } \tuplet 3/2 { g8 f cis } \tuplet 3/2 { e d a } \tuplet 3/2 { c b fis } |
+        \tuplet 3/2 { c8 f e } \tuplet 3/2 { g8 f cis } \tuplet 3/2 { e d a } \tuplet 3/2 { c bes fis } |
         \tuplet 3/2 { a8 g fis } \tuplet 3/2 { g8 b d } f8. f16 |
         e16 d cis bes a8. a'16 |
         g16 f e f d8 f16 g16 |
