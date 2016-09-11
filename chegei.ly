@@ -52,12 +52,52 @@ clarinette =
 
     \repeat volta 2 {
       a16 (f) d a' g (e) cis g' |
-      f16 d a f' ees c a ees' |
+      f16 (d) a f' ees (c) a ees' |
+      d (bes) g d' c (a) fis c' |
+      bes (g) d bes' a (fis) d fis |
+      g (fis) g a bes cis d e |
+      g (f) e d cis d e d |
+      f (e) gis, bes f'16 e8. |
+      f16 (e16) g,16 b16 f'16 e8. |
+      a16 (f) d a' g (e) cis g' |
+      fis ees c ees ees c a ees' |
+      d bes g d' c a fis c' |
+      bes g d g a fis d a' |
+      g g' f ees bes g f ees |
+      d dis e f fis g gis a |
+      bes b c cis d dis e a |
     }
 
     \alternative {
-      {  }
-      {  }
+      { d,8 a16 f16 d8 r8 }
+      { d'4 r16 c,16 d e \bar "||" }
+    }
+
+    f4 r16 f' bes (a) |
+
+    \repeat volta 2 {
+
+      \key bes \major
+      g (f d c bes c bes g |
+      ges4) r16 d' c bes |
+      a ( bes b c ) d (c a f) |
+      g8. (f16)~ f16 f'16 bes (a) |
+      g ( f ees d ) cis (d ees g) |
+      a8 (f16 ees d ees f g ) |
+      f8 (e16 d16 cis d ees f) |
+      d8 f8 r16 f bes a |
+      g (f) d c bes (c) bes a |
+      aes4 r16 bes (c) d |
+      g (f) d bes aes (bes) d g |
+      f16 ees8. ees,16 (d ees f) |
+      ges8. ees'16 (d16 c bes ges) |
+      f d f bes d f ees bes |
+      d (c bes) c bes a d c |
+    }
+
+    \alternative {
+      { bes4 r16 f' bes a }
+      { bes,4 r16 c, d e }
     }
 
   }
