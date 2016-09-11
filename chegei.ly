@@ -17,13 +17,14 @@
 }
 
 clarinette =
+  \transpose bes c {
   \relative c' {
     \set Staff.instrumentName = #"Clarinette Bb"
     \tempo 4 = 190
     \key f \major
     \time 2/4
 
-    r4 r16 c d e |
+    r4 r16 c' d e |
 
     \repeat volta 2 {
       f16 f' f f f d d d |
@@ -84,7 +85,7 @@ clarinette =
       g8. (f16)~ f16 f'16 bes (a) |
       g ( f ees d ) cis (d ees g) |
       a8 (f16 ees d ees f g ) |
-      f8 (e16 d16 cis d ees f) |
+      f8 (e16 d16 cis d e f) |
       d8 f8 r16 f bes a |
       g (f) d c bes (c) bes a |
       aes4 r16 bes (c) d |
@@ -100,7 +101,7 @@ clarinette =
       { bes,4 r16 c, d e }
     }
 
-  }
+  }}
 
 \score {
   <<
